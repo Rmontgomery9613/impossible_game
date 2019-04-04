@@ -1,0 +1,241 @@
+#container{
+		position:relative;
+		height:800px;
+		width:800px;
+		left:0px;
+		top:0px;
+		background-color:gray;
+		overflow:hidden;
+}
+
+.btnStart{
+	position:absolute;
+	top:550px;
+	left:280px;
+	width:200px;
+	height:50px;
+	background-color:red;
+	color:white;
+	font-size:2em;
+	z-index:200;
+	text-align:center;
+	border-radius:25px;
+	padding:5px;
+	border:1px solid black;
+}
+
+.player{
+	position:absolute;
+	height:30px;
+	width:30px;
+	bottom:700px;
+	left:50px;
+	background-image:url(green_square.png);
+	background-size:cover;
+	background-position:center;
+	z-index:99;
+}
+
+.instructions{
+	position:absolute;
+	height:160px;
+	width:360px;
+	bottom:700px;
+	left:50px;
+	background-image:url(instructions.png);
+	background-size:cover;
+	background-position:center;
+	z-index:101;
+}
+
+.leftStartWall{
+	position:absolute;
+	height:250px;
+	width:400px;
+	top:100px;
+	left:100px;
+	background-color:black;
+	z-index:100;
+}
+
+.rightStartWall{
+	position:absolute;
+	height:250px;
+	width:1200px;
+	bottom:100px;
+	left:100px;
+	background-color:black;
+	z-index:100;
+}
+
+.horizontalBreak{
+	position:absolute;
+	height:30px;
+	width:815px;
+	bottom:200px;
+	left:0px;
+	background-color:black;
+	z-index:100;
+}
+
+.gameOver{
+	position:absolute;
+	z-index:300;
+	top:300px;
+	height:60px;
+	width:400px;
+	left: 20%;
+	background-color:red;
+	color:black;
+	font-size:3em;
+	text-align:center;
+	padding:5px;
+	border:1px solid black;
+}
+
+.rightSideWall{
+	position:absolute;
+	height:460px;
+	width:30px;
+	bottom:0px;
+	left:700px;
+	background-color:black;
+	z-index:100;
+	
+}
+
+.dropWall1{
+	position:absolute;
+	height:20px;
+	width:110px;
+	bottom:200px;
+	left:0px;
+	background-color:black;
+	z-index:100;
+}
+
+.dropWall2a{
+	position:absolute;
+	height:20px;
+	width:60px;
+	bottom:200px;
+	left:0px;
+	background-color:black;
+	z-index:100;
+}
+
+.dropWall2b{
+	position:absolute;
+	height:20px;
+	width:55px;
+	bottom:200px;
+	left:0px;
+	background-color:black;
+	z-index:100;
+}
+
+.dropWall3{
+	position:absolute;
+	height:20px;
+	width:110px;
+	bottom:200px;
+	left:0px;
+	background-color:black;
+	z-index:100;
+}
+
+.dropWall4a{
+	position:absolute;
+	height:20px;
+	width:85px;
+	bottom:200px;
+	left:0px;
+	background-color:black;
+	z-index:100;
+}
+
+.dropWall4b{
+	position:absolute;
+	height:20px;
+	width:45px;
+	bottom:200px;
+	left:0px;
+	background-color:black;
+	z-index:100;
+}
+
+.rightSideWall2{
+	position:absolute;
+	height:440px;
+	width:30px;
+	bottom:0px;
+	left:700px;
+	background-color:black;
+	z-index:100;
+}
+
+.bullet0{
+	position:absolute;
+	height:10px;
+	width:10px;
+	background-color:black;
+	z-index:100;
+}
+
+.bullet1{
+	position:absolute;
+	height:10px;
+	width:10px;
+	background-color:black;
+	z-index:100;
+}
+.bullet2{
+	position:absolute;
+	height:10px;
+	width:10px;
+	background-color:black;
+	z-index:100;
+}
+.bullet3{
+	position:absolute;
+	height:10px;
+	width:10px;
+	background-color:black;
+	z-index:100;
+}
+.bullet4{
+	position:absolute;
+	height:10px;
+	width:10px;
+	background-color:black;
+	z-index:100;
+}
+.bullet5{
+	position:absolute;
+	height:10px;
+	width:10px;
+	background-color:black;
+	z-index:100;
+}
+.bullet6{
+	position:absolute;
+	height:10px;
+	width:10px;
+	background-color:black;
+	z-index:100;
+}
+.bullet7{
+	position:absolute;
+	height:10px;
+	width:10px;
+	background-color:black;
+	z-index:100;
+}
+
+.bullet8{
+	position:absolute;
+	height:10px;
+	width:10px;
+	background-color:black;
+	z-index:100;
+}
